@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract Android project ZIP
         run: |
-          unzip -o NoX_Charge_Alert_Android_Project_Checked_v4_fixed.zip -d extracted
+          unzip -o NoX_Charge_Alert_Android_Project_Checked_v5_fixed.zip -d extracted
           cp -r extracted/app .
           cp extracted/build.gradle.kts extracted/settings.gradle.kts extracted/gradle.properties .
 
